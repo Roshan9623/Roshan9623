@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Roshan Dhangar 
 
-💻 2nd Year Engineering Student  
+💻 2nd Year Electronics & Telecommunication Engineering Student  
 🚀 Currently learning Web Development  
 🌱 Improving problem-solving skills  
 
