@@ -1,0 +1,56 @@
+name: Generate Rocket Animation
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"  # har 12 ghante me update
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Generate Rocket SVG
+        run: |
+          mkdir dist
+          cat <<EOF > dist/rocket.svg
+          <svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+            <rect width="800" height="200" fill="#0d1117"/>
+            
+            <!-- Stars -->
+            <circle cx="100" cy="50" r="2" fill="white"/>
+            <circle cx="300" cy="80" r="2" fill="white"/>
+            <circle cx="500" cy="30" r="2" fill="white"/>
+            <circle cx="700" cy="90" r="2" fill="white"/>
+
+            <!-- Rocket -->
+            <g>
+              <polygon points="0,100 40,80 40,120" fill="white"/>
+              <rect x="40" y="80" width="40" height="40" fill="red"/>
+              <circle cx="60" cy="100" r="10" fill="skyblue"/>
+              
+              <!-- Fire -->
+              <polygon points="0,100 -20,90 -20,110" fill="orange">
+                <animate attributeName="points"
+                  values="0,100 -20,90 -20,110;0,100 -30,95 -30,105;0,100 -20,90 -20,110"
+                  dur="0.3s"
+                  repeatCount="indefinite"/>
+              </polygon>
+
+              <!-- Movement -->
+              <animateTransform attributeName="transform"
+                type="translate"
+                from="0 0" to="700 0"
+                dur="5s"
+                repeatCount="indefinite"/>
+            </g>
+          </svg>
+          EOF
+
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
