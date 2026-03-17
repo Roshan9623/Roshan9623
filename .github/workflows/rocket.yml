@@ -1,4 +1,4 @@
-name: Generate Rocket Animation
+name: Rocket Animation
 
 on:
   workflow_dispatch:
@@ -8,8 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
       - name: Generate Rocket SVG
         run: |
@@ -17,43 +16,24 @@ jobs:
           cat <<EOF > dist/rocket.svg
           <svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
             <rect width="800" height="200" fill="#0d1117"/>
-            
-            <!-- Stars -->
             <circle cx="100" cy="50" r="2" fill="white"/>
             <circle cx="300" cy="80" r="2" fill="white"/>
             <circle cx="500" cy="30" r="2" fill="white"/>
             <circle cx="700" cy="90" r="2" fill="white"/>
-
-            <!-- Rocket -->
             <g>
               <polygon points="0,100 40,80 40,120" fill="white"/>
               <rect x="40" y="80" width="40" height="40" fill="red"/>
               <circle cx="60" cy="100" r="10" fill="skyblue"/>
-              
-              <!-- Fire -->
               <polygon points="0,100 -20,90 -20,110" fill="orange">
                 <animate attributeName="points"
                   values="0,100 -20,90 -20,110;0,100 -30,95 -30,105;0,100 -20,90 -20,110"
                   dur="0.3s"
                   repeatCount="indefinite"/>
               </polygon>
-
-              <!-- Movement -->
               <animateTransform attributeName="transform"
                 type="translate"
                 from="0 0" to="700 0"
-                dur="5s"
-                repeatCount="indefinite"/>
+                dur="5s" repeatCount="indefinite"/>
             </g>
           </svg>
           EOF
-
-      - name: Commit & Push
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add dist/rocket.svg
-          git commit -m "Update rocket animation" || echo "No changes to commit"
-          git push origin HEAD:main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
