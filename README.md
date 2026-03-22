@@ -7,7 +7,6 @@
 
 💻 2nd Year Electronics & Telecommunication Engineering Student  
 🚀 Currently learning new technologies
-
 🌱 Improving problem-solving skills  
 📌 passionate about coding and building projects
 
