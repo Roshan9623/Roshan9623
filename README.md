@@ -9,8 +9,7 @@
 
 
 
-<h2 align="center">Hi 👋, I'm Roshan</h2>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&center=true&vCenter=true&lines=Welcome+to+my+profile;Electronics+Student;Web+Developer;Keep+Learning+🚀">
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg">
 </p>
