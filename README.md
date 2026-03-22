@@ -12,4 +12,9 @@
 
 
 
-<img src="https://raw.githubusercontent.com/Roshan9623/Roshan9623/main/dist/rocket.svg" alt="rocket animation">
+
+<h2 align="center">🚀 My Contributions</h2>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Roshan9623/Roshan9623/main/dist/rocket.svg" alt="rocket animation">
+</p>
