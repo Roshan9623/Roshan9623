@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Generate Rocket SVG
+      - name: Generate rocket SVG
         run: |
           mkdir -p dist
           cat <<EOF > dist/rocket.svg
@@ -31,8 +31,7 @@ jobs:
                   repeatCount="indefinite"/>
               </polygon>
               <animateTransform attributeName="transform"
-                type="translate"
-                from="0 0" to="700 0"
+                type="translate" from="0 0" to="700 0"
                 dur="5s" repeatCount="indefinite"/>
             </g>
           </svg>
