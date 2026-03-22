@@ -8,8 +8,9 @@
 
 
 
-<h2 align="center">🚀 My Contributions</h2>
+
+<h2 align="center">Hi 👋, I'm Roshan</h2>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Roshan9623/Roshan9623/main/rocket.svg" alt="rocket animation">
+  <img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&center=true&vCenter=true&lines=Welcome+to+my+profile;Electronics+Student;Web+Developer;Keep+Learning+🚀">
 </p>
