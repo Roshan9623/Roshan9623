@@ -10,6 +10,7 @@
 
 
 
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg">
+  <img src="https://media.giphy.com/media/l0HlQ7LRalQqdWfao/giphy.gif" width="200"/>
 </p>
