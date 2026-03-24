@@ -10,7 +10,7 @@
 🚀 Currently learning new technologies
 
 🌱 Improving problem-solving skills  
-📌 passionate about coding and building projects
+📌 passionate about coding and building projects .
 
 [![LinkedIn]( https://www.linkedin.com/in/roshan-dhangar-0a8357399 )
 
