@@ -19,4 +19,4 @@
 
 
 
-![Snake animation](https://github.com/Roshan9623/Roshan9623/blob/output/github-contribution-grid-snake-dark.svg)
+![Snake animation](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake.svg)
