@@ -19,6 +19,4 @@
 
 
 
-# My GitHub Profile 🚀
-
-![Snake animation](https://raw.githubusercontent.com/Roshan9623/Roshan9623/output/github-contribution-grid-snake.svg)
+![Snake animation](https://raw.githubusercontent.com/Roshan9623/Roshan9623/output/github-contribution-grid-snake-dark.svg)
