@@ -19,4 +19,6 @@
 
 
 
-![Snake animation](https://github.com/Roshan9623/Roshan9623/blob/output/github-contribution-grid-snake-dark.svg)
+<p align="center">
+  <img src="assets/space-shooter.gif" />
+</p>
