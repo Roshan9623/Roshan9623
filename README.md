@@ -10,14 +10,6 @@
 🚀 Currently learning new technologies.
 
 🌱 Improving problem-solving skills  
-
-
-
-
-
-<p align="center">
-  <img src="assets/space-shooter.gif" />
-</p>
 📌 passionate about coding and building projects .
 
 [![LinkedIn]( https://www.linkedin.com/in/roshan-dhangar-0a8357399 )
