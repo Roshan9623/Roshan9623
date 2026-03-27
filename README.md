@@ -19,7 +19,7 @@ ________________________________________________________________________________
 ## 📊 My Activity Graph
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Roshan9623&theme=react-dark&hide_border=true&area=true&custom_title=Roshan's%20Contribution%20Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Roshan9623&theme=react-dark&hide_border=true&area=true&custom_title=Roshan Dhangar's%20Contribution%20Graph" />
 </p>
 
 
