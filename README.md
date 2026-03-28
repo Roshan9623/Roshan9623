@@ -32,7 +32,7 @@ ____________________________________
 
 
 
-_______
+__
 ## ■ My GitHub
 <p align="center">
   <img src="assets/space-shooter.gif" />
