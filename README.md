@@ -6,7 +6,7 @@
 ##🎓About Me..
 
 
-💻 2nd Year Electronics & Telecommunication Engineering Student  
+💻 3rd Year Electronics & Telecommunication Engineering Student  
 🚀 Currently learning new technologies.
 
 🌱 Improving problem-solving skills  
