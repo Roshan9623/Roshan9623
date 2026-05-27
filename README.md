@@ -18,6 +18,18 @@ ________________________________________________________________________________
 
   __________________________________________________________________________________
 
+  ## 💼 Internship Experience
+
+### IoT Intern | Emertxe
+📅 March 2026 – April 2026
+
+- Successfully completed Internship on Internet of Things (IoT)
+- Learned C programming and Microcontrollers
+- Worked on SDLC based IoT project building
+- Gained hands-on exposure to Embedded Systems and Bluetooth communication
+
+ ______________________________________________________________________________
+
 ## 📚 Academic Projects
 
 ### 🔹 Bluetooth LED Control using Arduino UNO
