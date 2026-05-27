@@ -16,10 +16,18 @@ ________________________________________________________________________________
 [![LinkedIn]( https://www.linkedin.com/in/roshan-dhangar-0a8357399 )
 
 
- 
- __________________________________________________________________________________
- 
+  __________________________________________________________________________________
 
+## 📚 Academic Projects
+
+### 🔹 Bluetooth LED Control using Arduino UNO
+- HC-05 Bluetooth module based wireless LED control
+- Mobile app controlled ON/OFF system
+- Implemented using Arduino IDE and Embedded C
+- Learned Bluetooth communication and hardware interfacing
+
+ 
+___________________________________________________________________________________
 
 ## 📊 My Activity Graph
 
@@ -27,12 +35,8 @@ ________________________________________________________________________________
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Roshan9623&theme=react-dark&hide_border=true&area=true&custom_title=Roshan%20Dhangar's%20Contribution%20Graph" />
 </p>
 
-
-
-
-
-
 ______________________________________________________________________________
+
 ## ■ My GitHub
 <p align="center">
   <img src="assets/space-shooter.gif" />
@@ -42,12 +46,3 @@ ______________________________________________________________________________
 
 
 
-___________________________________________________________________________________
-
-## 📚 Academic Projects
-
-### 🔹 Bluetooth LED Control using Arduino UNO
-- HC-05 Bluetooth module based wireless LED control
-- Mobile app controlled ON/OFF system
-- Implemented using Arduino IDE and Embedded C
-- Learned Bluetooth communication and hardware interfacing
