@@ -7,7 +7,7 @@
 
 ____________________________________________________________________________________
 
-###🎓About Me..
+## 🎓 about me 
 
 
 💻 2nd Year Electronics & Telecommunication Engineering Student  
